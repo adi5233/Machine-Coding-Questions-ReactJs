@@ -1,0 +1,38 @@
+.progressBarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.progressBar {
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid rgb(25, 25, 25);
+  position: relative;
+  overflow: hidden;
+}
+
+.progressBar span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.progressBar div {
+  background-color: #00c251;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+}
