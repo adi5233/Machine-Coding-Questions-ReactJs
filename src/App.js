@@ -6,7 +6,8 @@ import React from "react";
 // import Pagination from "./components/pagination/Pagination";
 // import { SmoothScrolling } from "./components/smooth-scroll/UseLayoutEffect";
 // import InfiniteComments from "./components/InfiniteComments";
-import Main from "./components/progress-bar/Main";
+// import Main from "./components/progress-bar/Main";
+import Game from "./components/grid-game/Game";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
       {/* <Pagination /> */}
       {/* <Main /> */}
       {/* <Otp /> */}
-      <Main />
+      {/* <Main /> */}
+      <Game />
     </div>
   );
 };
